@@ -1,0 +1,310 @@
+/*CSS Document*/
+*{
+margin:0 auto;
+font-size:14px;
+/*设置外边距为0.并且水平居中。然后设置字体*/ 	}
+
+/*w伪类选择器*/
+a.link{
+	
+	color:#551A9C
+	text-decoration:none;
+	}
+a:hover{
+	color:#900;
+	text-decoration:underline;;
+	}	
+/****1**通用样式设置*********/
+#header,#content,#footer{
+border:#F00 0px solid;
+	width:1000px;
+	}
+/****2*******头部样式设置******/
+#header{
+	
+	height:200px;	
+	}
+/***********头部的top设置******/
+
+	#header_top{
+	height:27px;
+	background:#FFFAD0;	
+	}
+	
+/*top_left设置********************************/
+
+#header_left{
+	float:left;
+	height:100%;
+	line-height:27px;
+	}
+/*top_right设置********************************/
+
+#header_right ul li{
+	float:left;
+	
+    list-style:none;
+    line-height:27px;
+	padding-right:6px;
+	padding-left:3px;
+	}	
+	
+#header_right{
+	float:left;
+	margin-left:190px;
+	
+	}	
+#header_right ul li.header_right_a{
+	background:url(../img/splitter.jpg) no-repeat;
+	background-position:100% 50%;
+	}	
+	
+
+/*****3*****mid样式设置********/
+#header_mid{
+	height:102px;
+	
+	}
+/**********logo样式设置********/
+#logo{	
+	height:150px;
+	width:1000px;
+	margin: 0 auto;	
+	background:url(../img/logo.jpg) no-repeat;
+	}
+/**********这是logo右边设置********/
+#mid_right ul li{
+	list-style:none;
+	float:left;
+	height:30px;
+		width:100px;
+		background:url(../img/nav.jpg) no-repeat;
+		margin-right:10px;
+		text-align:center;
+		line-height:30px;
+	}
+/**********这是logo右边移动********/
+#mid_right {
+	margin-left:210px;
+	margin-top:-80px;	
+		}
+/**********这是logo右边样式********/
+
+#mid_right ul li a:hover{
+	color:#FFF;
+	
+	
+	}
+#mid_right ul li:hover{
+	
+	background:url(../img/nav-on.jpg) no-repeat;
+	
+	}
+#mid_right ul li a{
+	color:#666692;
+	font-weight:bold;
+	}	
+	
+/***************这是搜索设置********/
+#march{
+	background:#157128;
+	height:40px;}
+
+/************商品区*******************/
+#mall{
+	height:80px;
+	width:208px;
+	line-height:50px;
+	margin-left:5px;
+	text-align:center;
+	 margin-top:-1px;
+
+	background:url(../img/cat_title.jpg) no-repeat;
+}
+/************搜索*******************/
+#search{
+float:left;
+margin-top:-81px;
+margin-left:220px;
+	}
+#set_text{
+	height:30px;
+	width:130px;	
+	margin-top:3px;
+	
+	}	
+#sear{
+	margin-left:0px;
+	margin-top:-36px;
+	}
+/************热门搜索*******************/	
+#so{
+
+float:left;	
+font-weight:bold;
+	margin-left:420px;
+	margin-top:-68px;	
+}
+#so ul li{
+	list-style:none;
+	float:left;
+	color:#FFF;	
+	}	
+#so ul li a{
+	color:#FFF;
+	padding-left:6px;
+	}
+/************结账*******************/
+#cart{
+	float:right;
+	margin-top:-75px;
+	height:35px;
+	line-height:35px;
+	margin-right:20px;
+	
+}
+#cart ul li{
+	float:left;
+	list-style:none;
+	}
+#cart ul li.cart_1{	
+width:170px;
+background:url(../img/i_cart_1.jpg) no-repeat;
+text-align:center;
+}
+
+#cart ul li.cart_2{
+width:77px;
+background:url(../img/i_cart_4.jpg) no-repeat;
+text-align:center;
+
+}
+#cart ul li a{
+	color:#C4BE9E;
+margin-left:-5px;	
+	}
+
+/****5****活动窗口样式设置********/
+#active{
+	height:25px}
+/***6******内容主体样式设置********/
+#content{
+	height:600px;}
+/***6******内容左侧********/
+#content_left{
+	float:left;
+	width:207px;
+	height:500px;
+	}
+#l_notice{
+	height:200px;
+	border:1px solid #157128;
+	}
+#l_title{
+	background:#157128;
+	height:25px;
+	linne-height:30px;	
+	text-align:center;
+	}	
+#lan{
+	color:#FFF;
+	margin-left:-70px;
+	font-weight:bold;
+	}	
+	
+#r_type{
+	height:400px;
+	border:1px solid #157128;
+	
+	}
+#r_title{
+	height:25px;
+		background:#157128;
+}	
+#shop{
+	color:#FFF;
+font-weight:bold;
+margin-left:40px;
+	}	
+/*********商品分类***************************/
+
+#r_content dl dd li{
+	list-style:none;
+	height:30px;
+	line-height:30px;
+		border-top:1px dotted #157128;
+	background:url(../img/agree_item.gif) no-repeat 10% 50%;
+	padding-left:40px;
+	}
+#r_content dt{
+		height:30px;
+	line-height:30px;
+	padding-left:10px;
+	border-top:1px dotted #157128;
+	}
+
+/***6******内容右侧图********/
+
+#content_right{
+	float:right;
+	width:791px;
+	height:500px;
+	
+
+	}
+#content_right .mc_list{
+	height:200px;
+	margin-left:-2px;
+	border-top:1px dotted #157128;
+	
+	}
+		
+		
+#content_right .mc_list .mc_image img{
+	width:200px;
+	height:160px;
+	border:1px solid ;
+	margin-top:-1px;
+	margin-left:20px;
+	}	
+#content_right .mc_list .mc_image p{
+  margin-left:-400px;
+	background:url(../img/search.gif) no-repeat 35% 50%;
+	margin-top:10px;
+	}	
+#content_right .mc_list .mc_image p a{
+	margin-left:480px;
+	 color:#157128;	
+}
+/*********右侧的内容********************/
+#content_right .mc_list .mc_info{
+	margin-top:-180px;
+	width:460px;
+	height:100px;
+	float:right;
+	color:#666;
+	margin-right:18px;}
+		
+#content_right .mc_list .mc_info p{
+	height:20px;
+	line-height:20px;}
+#content_right .mc_list .mc_info p span{
+	color:#157128;
+	font-weight:bold;}
+#content_right .mc_list .mc_info p.mc_desc{
+	height:100px;}
+#content_right .mc_list .mc_info p.btn{
+	
+	text-align:right;
+	height:45px;
+	}	
+/***********分页************/	
+#jquery{
+	margin-left:300px;
+}
+/***********还有一双脚************/
+#footer{
+	height:60px;
+	text-align:center;
+	margin-top:50px;
+	}

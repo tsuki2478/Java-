@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+#m_c_right{
+	list-style:none;
+	 margin-left:450px;	
+	 margin-top:-150px;
+}
+  #m_c_left_bottom {
+ margin-left:250px;
+ } 
+#m_c_left_bottom ul li{
+	list-style:none;
+	padding-top:20px;
+	margin-left:-50px;
+}	
